@@ -1,0 +1,32 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="DialogMenuTheme" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item> <!-- 边框 -->
+        <item name="android:windowIsFloating">true</item> <!-- 是否浮现在activity之上 -->
+        <item name="android:windowNoTitle">true</item> <!-- 无标题 -->
+        <item name="android:windowBackground">@android:color/transparent</item> <!-- 背景透明 -->
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowAnimationStyle">@style/AnimationMenu</item>
+    </style>
+
+    <style name="AnimationMenu" parent="@android:style/Animation.Activity">
+
+        <!-- 当打开一个新的Activity，这Animation就会作用于接下来进入屏幕的Activity -->
+        <item name="android:windowEnterAnimation">@anim/open_enter</item>
+        <!-- 当关闭现在的Activity，这个Animation就会作用于接下来的要退出屏幕的Activity -->
+        <item name="android:windowExitAnimation">@anim/close_exit</item>
+    </style>
+
+    <style name="AlertTextTheme">
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">0.1</item>
+
+        <item name="android:textSize">24sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+</resources>

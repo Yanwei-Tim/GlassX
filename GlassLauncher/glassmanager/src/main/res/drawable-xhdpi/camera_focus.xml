@@ -1,0 +1,33 @@
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true">
+    <item
+        android:drawable="@drawable/camera_focus_1"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/camera_focus_2"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/camera_focus_3"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/camera_focus_4"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/camera_focus_5"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/camera_focus_6"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/camera_focus_7"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/camera_focus_8"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/camera_focus_9"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/camera_focus_10"
+        android:duration="50" />
+</animation-list>

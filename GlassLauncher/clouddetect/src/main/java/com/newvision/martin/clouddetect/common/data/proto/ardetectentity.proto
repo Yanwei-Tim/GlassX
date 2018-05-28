@@ -1,0 +1,82 @@
+// protoc --java_out=./ ardetectentity.com.newvision.martin.proto
+
+option java_outer_classname = "ARDetectEntity";
+message Entity {
+	required int32 eType = 1;
+	optional LoginInfo loginInfo = 2;
+	optional AuthInfo authInfo = 3;
+	optional DetectionRequest DetectionReq = 4;
+	optional DetectionResponse DetectionResp = 5;
+	optional DetectionError DetectionErr = 6;
+}
+
+message DetectionError {
+	required string errtype = 1;
+	required string errmsg = 2;
+}
+
+message LoginInfo {
+	required string username = 1;
+	required string password = 2;
+}
+
+message AuthInfo {
+	required string account = 1;
+	required string userID = 2;
+	required bool result = 3;
+	optional string message = 4;
+}
+
+message DetectionRequest {
+   required string id       = 1;
+   required string userID   = 2;
+   required string target   = 3;
+   required string targetId = 4;
+   required string engine   = 5;
+   required int32 width     = 6;
+   required int32 height    = 7;
+   required bytes image     = 8;
+   optional string lictoken = 9;
+   optional string appKey   = 10;
+}
+
+message DetectionResponse {
+	required string id = 1;
+    required string target = 2;
+	required string targetId = 3;
+    required string engine = 4;
+    optional float possibility = 5;
+	optional FaceInfo faceInfo = 6;
+	optional PersonInfo personInfo = 7;
+	optional PvaSets pvaSets = 8;
+}
+
+message PvaSets {
+	repeated PvaInfo pvas = 1;
+}
+
+message PvaInfo {
+	optional string name = 1;
+	optional float confidence = 2;
+	optional int32 x1 = 3;
+	optional int32 y1 = 4;
+	optional int32 x2  = 5;
+	optional int32 y2  = 6;
+}
+
+
+message PersonInfo {
+	required string name = 1;
+	required int32 topx = 2;
+	required int32 topy = 3;
+	required int32 bottomx = 4;
+	required int32 bottomy = 5;
+}
+
+message FaceInfo {
+	required string identity = 1;
+	required string name = 2;
+	optional string gender = 3;
+	optional string age = 4;
+}
+

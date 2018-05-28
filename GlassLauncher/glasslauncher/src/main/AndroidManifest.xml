@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.newvision.zeus.glasslauncher">
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-feature android:name="android.hardware.usb.host" />
+
+    <!--<uses-sdk tools:overrideLibrary="com.newvision.zeus.glasscore" />-->
+
+    <application
+        android:name=".LauncherApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/GlassBasicTheme">
+        <activity
+            android:name=".launcher2.LauncherActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".settings.SettingsActivity"
+            android:screenOrientation="landscape" />
+
+        <activity
+            android:name=".settings.wifi.wifilist.GlassWifiListActivity"
+            android:screenOrientation="landscape" />
+
+        <activity
+            android:name=".qrcode.QRCodeScanner"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".camera.ui.CameraActivity"
+            android:screenOrientation="landscape" />
+
+        <activity
+            android:name=".test.CameraTestActivity"
+            android:screenOrientation="landscape" />
+
+        <activity
+            android:name=".test.CameraUsbTestActivity"
+            android:screenOrientation="landscape" />
+
+
+        <activity android:name=".camera.ui.MainTestActivity" />
+
+        <activity
+            android:name=".settings.deviceinfo.AboutDeviceActivity"
+            android:screenOrientation="landscape" />
+
+        <service
+            android:name=".service.installer.AppInstallService"
+            android:exported="true" />
+
+        <activity android:name=".usb.UsbHostActivity">
+
+            <intent-filter>
+                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
+                android:resource="@xml/device_filter" />
+        </activity>
+
+        <!--<activity android:name=".usb.ChatActivity" />-->
+
+        <!--<activity android:name=".usb.ConnectActivity">-->
+
+        <!--<intent-filter>-->
+        <!--<action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />-->
+        <!--</intent-filter>-->
+
+        <!--<meta-data-->
+        <!--android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"-->
+        <!--android:resource="@xml/device_filter" />-->
+        <!--</activity>-->
+
+    </application>
+
+</manifest>

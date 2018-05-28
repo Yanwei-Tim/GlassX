@@ -1,0 +1,57 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- 时间轴底部标记高度 -->
+    <dimen name="height_card_sign">10dip</dimen>
+    <dimen name="height_progressbar">10dip</dimen>
+
+    <!-- 时间轴右下角距图标距离 -->
+    <dimen name="timeline_margin_icon">6dip</dimen>
+
+    <!-- Setting -->
+    <dimen name="width_setting_paddingLeft">30dip</dimen>
+    <dimen name="height_setting_maginTop">40dip</dimen>
+    <dimen name="height_setting_spacingTop">6.4dip</dimen>
+    <dimen name="setting_device_serial_bottom">50dip</dimen>
+    <dimen name="setting_device_serial_textsize">20sp</dimen>
+
+
+    <!-- FontSize -->
+    <dimen name="setting_wifi_top_textsize">30sp</dimen>
+    <dimen name="setting_wifi_bottom_textsize">18sp</dimen>
+    <dimen name="action_bar_height">53dp</dimen>
+    <dimen name="notification_text_size">25dp</dimen>
+
+    <dimen name="sms_content_1">26sp</dimen>
+    <dimen name="sms_content_4">12sp</dimen>
+
+    <!-- 匹配C1 -->
+
+    <!-- Setting -->
+    <dimen name="h_height_setting_maginTop">50dip</dimen>
+    <dimen name="h_height_setting_spacingTop">8dip</dimen>
+    <dimen name="h_setting_wifi_bottom_textsize">30sp</dimen>
+    <dimen name="h_height_progressbar">16dip</dimen>
+
+    <!-- voice share -->
+    <dimen name="h_default_margin">60dip</dimen>
+    <dimen name="h_textsize_big">40sp</dimen>
+    <dimen name="h_textsize_small">30sp</dimen>
+
+    <!-- about glass -->
+    <dimen name="h_textsize_about_glass">36sp</dimen>
+
+    <!-- sms content font size-->
+    <dimen name="h_textsize_sms_name">40sp</dimen>
+    <dimen name="h_textsize_sms_content">40sp</dimen>
+    <dimen name="h_textsize_timeline_time">30sp</dimen>
+    <dimen name="h_textsize_sms_content_split">20sp</dimen>
+
+    <!-- call record-->
+    <dimen name="h_textsize_call_split1">40sp</dimen>
+    <dimen name="h_textsize_call_split4">20sp</dimen>
+
+</resources>

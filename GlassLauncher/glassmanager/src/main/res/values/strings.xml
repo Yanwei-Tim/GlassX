@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">GlassManager</string>
+
+    <!-- login -->
+    <string name="login">登录</string>
+    <string name="username">用户名</string>
+    <string name="regularization_password">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLIMNOPQRSTUVWXYZ</string>
+    <string name="forget_password">忘记密码</string>
+    <string name="register">注册</string>
+
+    <string name="main_title">NewGlass</string>
+    <string name="idle_time">熄屏时间</string>
+    <string name="brightness">屏幕亮度</string>
+    <string name="volume">音量</string>
+    <string name="notification">通知</string>
+    <string name="connect_wifi">连接Wi-Fi</string>
+    <string name="pair_glass">眼镜配对</string>
+    <string name="about_glass">关于智能眼镜</string>
+    <string name="setting_title">设置</string>
+
+    <!-- wifi -->
+    <string name="msg_check_wifi">检测到已开启个人热点，请选择您需要的网络连接类型。</string>
+    <string name="wifi_qr_introduce">此二维码用于眼镜端连接Wi-Fi热点，请使用智能眼镜进行扫描</string>
+    <string name="no_wifi_hint">未搜索到Wi-Fi热点</string>
+    <string name="no_wifi_hint_to_do">请返回重试或点击右上角“+”按钮手动添加</string>
+    <string name="wifi_security_open">未加密</string>
+    <string name="wifi_security_wep">通过 WEP 进行保护</string>
+    <string name="wifi_security_psk">通过 WPA/WPA2 进行保护</string>
+    <string name="wifi_security_eap">通过 802.1x EAP 进行保护</string>
+    <string name="wifi_security_unknown">未知加密方式</string>
+
+
+    <!-- dialog -->
+    <string name="title_hint">提示</string>
+    <string name="dialog_confirm">确定</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="txt_show_pwd">显示密码</string>
+    <string name="password">密码</string>
+    <string name="hint_wifi_pwd">请输入Wi-Fi密码</string>
+    <string name="wifi_pwd_error">密码输入错误</string>
+    <string name="title_wifi_list">Wi-Fi</string>
+    <string name="title_ap">个人热点</string>
+    <string name="title_open_wifi">Wi-Fi未打开，立即打开？</string>
+
+
+    <string name="start_scan_glass">开始扫描</string>
+
+    <!-- permission -->
+    <string name="help">帮助</string>
+    <string name="string_help_text">当前应用缺少必要权限。请点击"设置"-"权限"打开所需权限。最后点击两次后退出按钮，即可返回</string>
+    <string name="quit">退出</string>
+    <string name="settings">设置</string>
+
+    <!-- home -->
+    <string name="connect_plug">connect_plug</string>
+    <string name="voice_notice">请说出显示的应用名称以启动应用</string>
+
+
+    <!-- camera -->
+    <string name="home_show_camera">相机</string>
+    <string name="home_show_martin">马丁</string>
+    <string name="camera_show_picture">拍照</string>
+    <string name="camera_show_record">摄像</string>
+    <string name="camera_show_stop">停止</string>
+    <string name="take_a_picture">拍照</string>
+    <string name="take_a_video">摄像</string>
+
+
+
+</resources>

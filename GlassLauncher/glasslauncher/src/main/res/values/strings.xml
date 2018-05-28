@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">GlassLauncher</string>
+
+    <string name="voice_command">\"开始\"</string>
+    <string name="settings">设置</string>
+
+    <string name="tips_null">""</string>
+
+    <!-- wifi -->
+    <string name="wifi_title">Wi-Fi</string>
+    <string name="wifi_state_unconnected">未连接</string>
+    <string name="wifi_state_connected">已连接</string>
+    <string name="wifi_state_connected_nodata">无数据</string>
+    <string name="wifi_tips_opennet_available">开放网络可用</string>
+    <string name="wifi_tips_addnetwork">添加Wi-Fi网络</string>
+    <string name="wifi_tips_use_glassmanager">请使用眼镜管家APP</string>
+    <string name="wifi_tips_nopass">该热点没有密码，</string>
+    <string name="wifi_tips_disconnecting">正在断开...</string>
+    <string name="wifi_tips_connecting">正在连接...</string>
+    <string name="wifi_tips_connect_success">连接成功</string>
+    <string name="wifi_tips_connect_timeout">连接超时</string>
+    <string name="wifi_tips_disconnect_success">断开成功</string>
+    <string name="wifi_tips_disconnect_failed">断开失败</string>
+    <string name="wifi_tips_current_wifi_connected">当前Wi-Fi已连接</string>
+    <string name="wifi_connect_state_error_auth">身份验证失败</string>
+
+    <string name="wifi_menu_changenetwork">切换网络</string>
+    <string name="wifi_menu_disconnect">断开网络</string>
+    <string name="wifi_menu_connect">连接网络</string>
+    <string name="wifi_menu_unsave">取消保存</string>
+
+    <string name="qr_tips_invalid">二维码无效</string>
+    <string name="qr_tips_type_error">二维码类型错误</string>
+    <string name="qr_tips_scan_again">请重新扫描二维码</string>
+    <string name="qr_tips_scan_glass_manager">请扫描眼镜管家Wi-Fi连接二维码</string>
+    <string name="qr_tips_scan_to_connect">请使用眼镜管家APP生成Wi-Fi二维码</string>
+    <string name="qr_not_glass_create">二维码信息错误</string>
+    <string name="qr_not_glass_create_wifi">请使用眼镜管家APP生成Wi-Fi二维码</string>
+    <string name="qr_tips_read_failed_todo">请重新生成二维码</string>
+
+    <string name="wifi_connect_state_connecting">正在连接网络...</string>
+    <string name="take_photo">拍照</string>
+    <string name="take_video">录像</string>
+
+    <string name="voice_command_settings">设置</string>
+    <string name="voice_command_martin">Martin</string>
+    <string name="voice_command_camera">相机</string>
+
+    <!-- bluetooth-->
+    <string name="bluetooth">蓝牙</string>
+    <string name="bluetooth_menu_open">开启</string>
+    <string name="bluetooth_menu_close">关闭</string>
+    <string name="bluetooth_truning_on">正在打开</string>
+    <string name="bluetooth_truning_off">正在关闭</string>
+    <string name="bluetooth_off">已关闭</string>
+    <string name="label_bt_nodevice">未连接</string>
+    <string name="bluetooth_headset_conn">蓝牙耳机开启</string>
+    <string name="bluetooth_headset_disconn">蓝牙耳机关闭</string>
+    <string name="bluetooth_connected">已连接眼镜管家</string>
+    <string name="label_bluetooth">蓝牙</string>
+    <string name="label_bt_search">附近所有蓝牙设备均可见到此设备（%1$s）</string>
+
+    <!-- device info -->
+    <string name="label_device_info">设备信息</string>
+    <string name="label_device_licenses">查看许可证</string>
+    <string name="label_device_ondebug">开启调试</string>
+    <string name="label_device_offdebug">关闭调试</string>
+    <string name="lable_version_debug">开发者版</string>
+    <string name="deviceinfo_menu_debug_open">开启调试</string>
+    <string name="deviceinfo_menu_debug_close">关闭调试</string>
+    <string name="deviceinfo_menu_change_en">切换英文</string>
+    <string name="deviceinfo_menu_change_zh">切换中文</string>
+    <string name="deviceinfo_tips_change_en">已切换为英文</string>
+    <string name="deviceinfo_tips_change_zh">已切换为中文</string>
+    <string name="deviceinfo_menu_bind_account">绑定账户</string>
+    <string name="deviceinfo_menu__rebind_glass">切换账户</string>
+    <string name="deviceinfo_menu_reset">恢复出厂设置</string>
+    <string name="deviceinfo_menu_system_setting">系统设置</string>
+    <string name="deviceinfo_menu_about_glass">关于智能眼镜</string>
+    <string name="deviceinfo_tips_debug_open_success">已开启调试</string>
+    <string name="deviceinfo_tips_debug_close_success">已关闭调试</string>
+    <string name="deviceinfo_tips_reset_delay">10秒钟后将开始恢复出厂设置</string>
+    <string name="deviceinfo_tips_reset_cancel">下滑取消操作，重置后将重启设备，请耐心等待</string>
+    <string name="deviceinfo_title_serial">SN：</string>
+    <string name="deviceinfo_title_innerspace">内存：</string>
+    <string name="deviceinfo_username_anonymity">"匿名"</string>
+
+    <!-- device info -->
+    <string name="label_deviceinfo_model">型号：</string>
+    <string name="txt_deviceinfo_model">C100</string>
+    <string name="label_deviceinfo_android">Android 版本：</string>
+    <string name="label_deviceinfo_kernal">内核版本：</string>
+    <string name="label_deviceinfo_version">版本号：</string>
+    <string name="label_deviceinfo_xunfei">讯飞语音版本：</string>
+
+    <string name="fota_name_current_version">版本:</string>
+
+    <!-- volume setting -->
+    <string name="volume_title">音量</string>
+
+    <!-- screen brightness setting-->
+    <string name="label_setting_screen">亮度</string>
+    <string name="lable_brightness_high">高等亮</string>
+    <string name="lable_brightness_middle">中等亮</string>
+    <string name="lable_brightness_low">低等亮</string>
+
+    <!-- screen off -->
+    <string name="label_setting_screen_off">息屏时间</string>
+    <string name="screen_off_fifty_second">15秒</string>
+    <string name="screen_off_thirty_second">30秒</string>
+    <string name="screen_off_one_minute">1分钟</string>
+    <string name="screen_off_two_minutes">2分钟</string>
+    <string name="screen_off_five_minutes">5分钟</string>
+    <string name="screen_off_ten_minutes">10分钟</string>
+    <string name="screen_off_thirty_minutes">30分钟</string>
+    <string name="screen_off_never">从不</string>
+</resources>

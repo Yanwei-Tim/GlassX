@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">相机</string>
+    <string name="take_photo">拍照</string>
+    <string name="take_video">录像</string>
+</resources>

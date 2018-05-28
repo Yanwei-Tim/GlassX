@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_black"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/title_bar" />
+
+    <cn.bingoogolapple.progressbar.BGAProgressBar
+        android:id="@+id/loading_count"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="15dp"
+        android:progress="40"
+        android:visibility="gone"
+        app:bga_pb_isCapRounded="false"
+        app:bga_pb_isHiddenText="true"
+        app:bga_pb_mode="horizontal"
+        app:bga_pb_reachedColor="#FFC73B"
+        app:bga_pb_reachedHeight="4dp"
+        app:bga_pb_textColor="#FFC73B"
+        app:bga_pb_textMargin="8dp"
+        app:bga_pb_textSize="14sp"
+        app:bga_pb_unReachedColor="#ECF0F1"
+        app:bga_pb_unReachedHeight="2dp" />
+
+    <Button
+        android:id="@+id/start_scan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/start_scan_glass" />
+
+    <ListView
+        android:id="@+id/glass_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fastScrollEnabled="false"
+        android:scrollbars="none" />
+
+</LinearLayout>

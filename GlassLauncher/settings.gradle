@@ -1,0 +1,1 @@
+include ':glasslauncher', ':glassmanager', ':glasscore', ':ceyes.widgets', 'glasscamera', ':live_lib', ':clouddetect'

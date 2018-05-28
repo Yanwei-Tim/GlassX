@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/layout_background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:background="@color/setting_left"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="220dip"
+                android:layout_height="220dip"
+                android:src="@drawable/icon_deviceinfo" />
+        </LinearLayout>
+
+        <RelativeLayout
+            style="@style/h_Layout_Setting"
+            android:layout_weight="3">
+
+            <TextView
+                android:id="@+id/txt_device_title"
+                style="@style/h_Text_Setting"
+                android:text="@string/label_device_info" />
+
+            <TextView
+                android:id="@+id/txt_device_free"
+                style="@style/h_Text_Setting"
+                android:layout_below="@id/txt_device_title"
+                android:layout_marginTop="@dimen/h_height_setting_spacingTop"
+                android:text=""
+                android:textColor="@color/color_green" />
+
+            <TextView
+                android:id="@+id/txt_extends_device_free"
+                style="@style/h_Text_Setting"
+                android:layout_below="@id/txt_device_free"
+                android:layout_marginTop="@dimen/h_height_setting_spacingTop"
+                android:text=""
+                android:textColor="@color/color_green" />
+
+            <TextView
+                android:id="@+id/txt_device_serial"
+                style="@style/h_Text_Setting"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="@dimen/h_height_setting_spacingTop"
+                android:textColor="@color/setting_text_bottom"
+                android:textSize="@dimen/h_setting_wifi_bottom_textsize" />
+
+            <TextView
+                android:id="@+id/txt_launcher_version"
+                style="@style/h_Text_DeviceInfo_Serial"
+                android:text="@string/lable_version_debug"
+                android:layout_above="@id/txt_device_serial"
+                android:layout_marginTop="@dimen/h_height_setting_spacingTop" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

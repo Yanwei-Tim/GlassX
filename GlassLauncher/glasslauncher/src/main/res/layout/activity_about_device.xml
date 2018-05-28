@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/h_default_margin"
+        android:layout_marginTop="@dimen/h_default_margin"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_deviceinfo_model"
+            android:textColor="@color/activity_aboutglass_text"
+            android:textSize="@dimen/h_textsize_about_glass" />
+
+        <TextView
+            android:id="@+id/txt_model"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/activity_aboutglass_text"
+            android:textSize="@dimen/h_textsize_about_glass" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/h_default_margin"
+        android:layout_marginTop="10dip"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_deviceinfo_android"
+            android:textColor="@color/activity_aboutglass_text"
+            android:textSize="@dimen/h_textsize_about_glass" />
+
+        <TextView
+            android:id="@+id/txt_version_android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/activity_aboutglass_text"
+            android:textSize="@dimen/h_textsize_about_glass" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/h_default_margin"
+        android:layout_marginTop="10dip"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_deviceinfo_kernal"
+            android:textColor="@color/activity_aboutglass_text"
+            android:textSize="@dimen/h_textsize_about_glass" />
+
+        <TextView
+            android:id="@+id/txt_version_kernal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/h_default_margin"
+            android:lineSpacingExtra="10dip"
+            android:text=""
+            android:textColor="@color/activity_aboutglass_text"
+            android:textSize="@dimen/h_textsize_about_glass" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dip"
+        android:layout_marginTop="10dip"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_deviceinfo_version"
+            android:textColor="@color/activity_aboutglass_text"
+            android:textSize="@dimen/h_textsize_about_glass" />
+
+        <TextView
+            android:id="@+id/txt_version_rom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/activity_aboutglass_text"
+            android:textSize="@dimen/h_textsize_about_glass" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dip"
+        android:layout_marginTop="10dip"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_deviceinfo_xunfei"
+            android:textColor="@color/activity_aboutglass_text"
+            android:textSize="@dimen/h_textsize_about_glass" />
+
+        <TextView
+            android:id="@+id/txt_version_xunfei"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/activity_aboutglass_text"
+            android:textSize="@dimen/h_textsize_about_glass" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,76 @@
+<resources>
+
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~basic~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <style name="GlassBasicTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/AnimationActivity</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:colorBackgroundCacheHint">@android:color/black</item>
+        <item name="android:windowActionBar">false</item>
+
+        <item name="android:action">true</item>
+
+    </style>
+    <!-- Activity显示消失动画 -->
+    <style name="AnimationActivity" parent="@android:style/Animation.Activity">
+
+        <!-- 当打开一个新的Activity，这Animation就会作用于接下来进入屏幕的Activity -->
+        <item name="android:activityOpenEnterAnimation">@anim/open_enter</item>
+        <!-- 当打开一个新的Activity，这Animation就会作用于接下来退出屏幕的Activity -->
+        <item name="android:activityOpenExitAnimation">@anim/open_exit</item>
+        <!-- 当关闭现在的Activity，这个Animation就会作用于接下来的进入屏幕的Activity -->
+        <item name="android:activityCloseEnterAnimation">@anim/close_enter</item>
+        <!-- 当关闭现在的Activity，这个Animation就会作用于接下来的要退出屏幕的Activity -->
+        <item name="android:activityCloseExitAnimation">@anim/close_exit</item>
+    </style>
+
+    <!-- 语音文字的基础阴影风格-->
+    <style name="VoiceBaseTextStyle">
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">0.1</item>
+    </style>
+
+    <!-- 设置选项卡片中声音控制卡片layout -->
+    <style name="Layout_Setting">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">#000</item>
+        <item name="android:paddingLeft">21dip</item>
+        <item name="android:paddingRight">21dip</item>
+        <item name="android:layout_marginTop">40dip</item>
+        <item name="android:layout_marginBottom">40dip</item>
+    </style>
+
+    <style name="h_Layout_Setting" parent="Layout_Setting">
+        <item name="android:paddingLeft">40dip</item>
+        <item name="android:paddingRight">40dip</item>
+    </style>
+
+    <style name="h_Text_Setting" parent="Text_Setting">
+        <item name="android:textSize">40sp</item>
+    </style>
+
+    <style name="Text_Setting" parent="BaseTextStyle">
+        <item name="android:textSize">24sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="BaseTextStyle">
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">0.1</item>
+    </style>
+
+    <style name="h_Text_DeviceInfo_Serial" parent="BaseTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/setting_text_bottom</item>
+    </style>
+</resources>
